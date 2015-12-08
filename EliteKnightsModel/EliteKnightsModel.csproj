@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89394605-D7CB-4C39-8968-CFCF3C148AF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EliteKnightsModel</RootNamespace>
+    <AssemblyName>EliteKnightsModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\AttackCharacter.cs" />
+    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Enemies\Enemy.cs" />
+    <Compile Include="Characters\IAttackCharacter.cs" />
+    <Compile Include="Characters\Npcs\Npc.cs" />
+    <Compile Include="Characters\Personages\Personage.cs" />
+    <Compile Include="Connection\Connection.cs" />
+    <Compile Include="Connection\Data.cs" />
+    <Compile Include="Connection\Factories\IPersonageAbstractFactory.cs" />
+    <Compile Include="Connection\Factories\KnightLocalFactory.cs" />
+    <Compile Include="Connection\Join.cs" />
+    <Compile Include="Connection\KnightProxy.cs" />
+    <Compile Include="Connection\Factories\KnightRemoteFactory.cs" />
+    <Compile Include="Connection\Client.cs" />
+    <Compile Include="Connection\Remote\RemoteMachine.cs" />
+    <Compile Include="Connection\Host.cs" />
+    <Compile Include="Connection\Server.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="IConnectable.cs" />
+    <Compile Include="Interfaces\IObservableSkill.cs" />
+    <Compile Include="Interfaces\IObservableSkillsList.cs" />
+    <Compile Include="Interfaces\IObserverSkill.cs" />
+    <Compile Include="Interfaces\IObserverMessage.cs" />
+    <Compile Include="Interfaces\IObservableMessage.cs" />
+    <Compile Include="Interfaces\IObserverSkillsList.cs" />
+    <Compile Include="Interfaces\IObservableWorld.cs" />
+    <Compile Include="Interfaces\IObserverWorld.cs" />
+    <Compile Include="Interfaces\IObservableMobile.cs" />
+    <Compile Include="Interfaces\IObserverMobile.cs" />
+    <Compile Include="Interfaces\IObserverAnimationSkill.cs" />
+    <Compile Include="Interfaces\IObservableAnimationSkill.cs" />
+    <Compile Include="Skills\Items\Equipment\Material.cs" />
+    <Compile Include="Memory.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="Names.cs" />
+    <Compile Include="Boots\MapBoot.cs" />
+    <Compile Include="Boots\PersonagesBoot.cs" />
+    <Compile Include="Simulator\ISimulator.cs" />
+    <Compile Include="Simulator\KnightSimulator.cs" />
+    <Compile Include="Simulator\Simulator.cs" />
+    <Compile Include="Simulator\Simulator8.cs" />
+    <Compile Include="Simulator\Simulator7.cs" />
+    <Compile Include="Simulator\Simulator6.cs" />
+    <Compile Include="Simulator\Simulator5.cs" />
+    <Compile Include="Simulator\Simulator4.cs" />
+    <Compile Include="Simulator\Simulator3.cs" />
+    <Compile Include="Simulator\Simulator2.cs" />
+    <Compile Include="Simulator\Simulator1.cs" />
+    <Compile Include="Persistence\Data.cs" />
+    <Compile Include="Persistence\DataList.cs" />
+    <Compile Include="Persistence\PersistenceGame.cs" />
+    <Compile Include="Persistence\Profile.cs" />
+    <Compile Include="Scene\Constructions\Construction.cs" />
+    <Compile Include="Scene\Constructions\House.cs" />
+    <Compile Include="Scene\Terrain.cs" />
+    <Compile Include="Skills\IActivableSkill.cs" />
+    <Compile Include="Characters\ICharacter.cs" />
+    <Compile Include="Interfaces\IMobile.cs" />
+    <Compile Include="Interfaces\IPositionable.cs" />
+    <Compile Include="Interfaces\IUpdateable.cs" />
+    <Compile Include="Characters\Personages\Knight.cs" />
+    <Compile Include="Characters\State.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="Skills\Items\Equipment\Armor.cs" />
+    <Compile Include="Skills\Items\Category.cs" />
+    <Compile Include="Skills\Items\Equipment\Equipment.cs" />
+    <Compile Include="Skills\Items\IItem.cs" />
+    <Compile Include="Skills\Items\Item.cs" />
+    <Compile Include="Skills\Items\ItemsList.cs" />
+    <Compile Include="Skills\Items\None.cs" />
+    <Compile Include="Boots\ItemsBoot.cs" />
+    <Compile Include="Boots\SkillsBoot.cs" />
+    <Compile Include="Exceptions\EnemyNullException.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Vector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skills\Defensives\Blindage.cs" />
+    <Compile Include="Skills\Defensives\Cholera.cs" />
+    <Compile Include="Skills\Defensives\Courage.cs" />
+    <Compile Include="Skills\Defensives\DefensiveSkill.cs" />
+    <Compile Include="Skills\Defensives\Immune.cs" />
+    <Compile Include="Skills\Defensives\Ire.cs" />
+    <Compile Include="Skills\Defensives\Meditation.cs" />
+    <Compile Include="Skills\Defensives\Winged.cs" />
+    <Compile Include="Skills\ISkill.cs" />
+    <Compile Include="Skills\NoneSkill.cs" />
+    <Compile Include="Skills\Offensives\Attack.cs" />
+    <Compile Include="Skills\Offensives\Court.cs" />
+    <Compile Include="Skills\Offensives\Fury.cs" />
+    <Compile Include="Skills\Offensives\OffensiveSkill.cs" />
+    <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Skills\SkillsList.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="Scene\IStage.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="Scene\Stage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Battle\Tournament\" />
+    <Folder Include="Skills\Passives\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

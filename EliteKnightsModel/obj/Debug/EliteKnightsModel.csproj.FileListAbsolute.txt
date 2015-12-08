@@ -1,0 +1,5 @@
+D:\Projects\C#\EliteKnights\EliteKnightsModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\C#\EliteKnights\EliteKnightsModel\bin\Debug\EliteKnightsModel.dll
+D:\Projects\C#\EliteKnights\EliteKnightsModel\bin\Debug\EliteKnightsModel.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsModel\obj\Debug\EliteKnightsModel.dll
+D:\Projects\C#\EliteKnights\EliteKnightsModel\obj\Debug\EliteKnightsModel.pdb

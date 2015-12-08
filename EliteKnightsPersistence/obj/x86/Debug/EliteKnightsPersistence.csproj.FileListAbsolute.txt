@@ -1,0 +1,7 @@
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\bin\Debug\EliteKnightsPersistence.exe
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\bin\Debug\EliteKnightsPersistence.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\bin\Debug\EliteKnightsModel.dll
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\bin\Debug\EliteKnightsModel.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\obj\x86\Debug\EliteKnightsPersistence.exe
+D:\Projects\C#\EliteKnights\EliteKnightsPersistence\obj\x86\Debug\EliteKnightsPersistence.pdb

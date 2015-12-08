@@ -1,0 +1,9 @@
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\bin\Debug\EliteKnightsAccount.exe
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\bin\Debug\EliteKnightsAccount.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\EliteKnightsAccount.Form1.resources
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\EliteKnightsAccount.Properties.Resources.resources
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\EliteKnightsAccount.exe
+D:\Projects\C#\EliteKnights\EliteKnightsAccount\obj\x86\Debug\EliteKnightsAccount.pdb

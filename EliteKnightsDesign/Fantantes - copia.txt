@@ -1,0 +1,72 @@
+*Nuevos
+-Mejorar proporcion y posicion de interfaz segun tamaño de ventana
+-Mejorar batalla (world y mapBoot)
+-Velocidad de movimiento de Character segun habilidades
+-Items (nucleo)
+-Conexion remota
+
+-Detectar tarjeta de sonido
+
+*Modelo
+-Implementar colisiones
+-Implementar velocidad de movimiento y giro relativo a habilidades
+-Implementar entidades más cercanas*
+-Implementar batallas y torneos
+-Implementar enemigos
+-Implementar npcs
+-Implementar más personajes (razas?)
+-Implementar ítems y equipamiento
+-Control de excepciones
+-Implementar mas construcciones
+-Cálculo de entidades cercanas en mundo*
+-GamePlay crea mi personaje, debería venir de persistencia
+-Adaptar nombres de General a la historia a contar
+
+*Gráficos
+-Implementar modo de selección de personajes (enemigo, npc) [3]
+-Implementar estadistica de skill (ventanita)
+-Implementar más camaras (3ra persona, 1ra persona, enemigo)
+-Sincronizar dimensiones de contrucciones con construciones vista (house)
+-Actualizar y dibujar primero las entidades más cercana [2]
+-Agregar interior de modelo de casa
+
+-Implementar ButtonOption (heredar de Button?)
+-Core crea World(modelo) y agregar gravedad
+
+*Interfaz
+-Mapa, exploración de mapa con camara aérea
+-Implementacion de Chat
+-Mejorar diseño de estadisticas de personaje y barras de estado
+
+*Sonido
+-Implementar sonido
+-Agregar musicas de fondo
+-Agregar efectos de musica
+
+*Imagenes
+-Mejorar imagenes de skills que faltan
+-Mejorar imagen de mapa
+-Agregar imagen de rostro de personage
+
+*Modelos
+-Agregar más modelos (árboles y construcciones)
+-Agregar uv a cada modelo (terrain)
+-Mejorar modelo terrain
+-Agregar cielo
+
+*Conexion
+-Implementar conexion remota [3]
+
+*Persistencia
+-Implementar persistencia [4] - hecho medio
+
+*Animaciones
+-Implementar efectos de skills
+-Implementar movimientos de personaje
+
+*Tests
+-Implementar tests (modelo)
+
+*Instalación
+-Agregar instalador en varias plataformas
+-Necesario: DirectX, Xna Framework, .NET Framework

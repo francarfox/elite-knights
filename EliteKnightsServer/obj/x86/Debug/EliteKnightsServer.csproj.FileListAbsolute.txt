@@ -1,0 +1,7 @@
+D:\Projects\C#\EliteKnights\EliteKnightsServer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\C#\EliteKnights\EliteKnightsServer\bin\Debug\EliteKnightsServer.exe
+D:\Projects\C#\EliteKnights\EliteKnightsServer\bin\Debug\EliteKnightsServer.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsServer\bin\Debug\EliteKnightsModel.dll
+D:\Projects\C#\EliteKnights\EliteKnightsServer\bin\Debug\EliteKnightsModel.pdb
+D:\Projects\C#\EliteKnights\EliteKnightsServer\obj\x86\Debug\EliteKnightsServer.exe
+D:\Projects\C#\EliteKnights\EliteKnightsServer\obj\x86\Debug\EliteKnightsServer.pdb

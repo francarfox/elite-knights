@@ -1,0 +1,5 @@
+-Corta efecto de sonido boton de opcion ranking
+(mejorar impresion de ranking)
+-Efento de sonido cortado de cholera
+
+-enemigo sigue atacandome aun sin salud
